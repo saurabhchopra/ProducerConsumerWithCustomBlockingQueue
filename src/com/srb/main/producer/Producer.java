@@ -36,7 +36,6 @@ public class Producer implements Runnable {
 				System.out.println("Item produce " + value);
 				produce(value);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
